@@ -1,0 +1,137 @@
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* ATS Resume */
+
+        .resume {
+            width: 100%;
+            min-height: 297mm;
+            padding: 40px;
+            background: white;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Name */
+
+        #p_name {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            margin: 0 0 4px 0;
+        }
+
+        /* Role */
+
+        #p_role {
+            text-align: center;
+            font-size: 16px;
+            margin: 0 0 10px 0;
+        }
+
+        /* Contact */
+
+        .contact {
+            text-align: center;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        /* Section */
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            border-bottom: 2px solid black;
+
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        /* Experience */
+
+        .company {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .exp-role {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .exp-date {
+            font-size: 13px;
+            color: #444;
+            margin-bottom: 5px;
+        }
+
+        #p_desc {
+            white-space: pre-line;
+        }
+
+        /* Education */
+
+        .institute {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .department {
+            font-size: 14px;
+        }
+
+        .percentage {
+            font-size: 14px;
+        }
+
+        /* Skills */
+
+        .skill-list {
+            font-size: 14px;
+        }
+
+        /* Form */
+
+        .resume-form input,
+        .resume-form textarea {
+            width: 100%;
+            padding: 7px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .resume-form textarea {
+            min-height: 100px;
+        }
+
+        /* Printing */
+
+        @media print {
+
+            body {
+                background: white;
+            }
+
+            .resume-form,
+            .page-title {
+                display: none;
+            }
+
+            .resume {
+                width: 100%;
+                padding: 20px;
+                margin: 0;
+            }
+        }
+
